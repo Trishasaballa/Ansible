@@ -1,0 +1,9 @@
+---
+  - name: Making folders
+    file:
+      state: directory
+      path:  "{{  item  }}"
+    loop:
+      -  ~/fol1
+      -  ~/fol2 
+# tasks file for container

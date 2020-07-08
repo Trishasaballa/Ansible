@@ -1,0 +1,5 @@
+---
+  - name: Ansible-Playbook
+    hosts: localhost
+    roles:
+      - { role: container, tags: ["container"] }
